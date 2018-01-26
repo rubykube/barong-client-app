@@ -1,0 +1,1214 @@
+Started GET "/" for 127.0.0.1 at 2018-01-22 16:35:55 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 733ms (Views: 575.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-22 16:36:59 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 272ms (Views: 143.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-22 16:38:25 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 269ms (Views: 140.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-22 16:38:45 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 266ms (Views: 141.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-22 16:42:07 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 247ms (Views: 152.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-22 16:42:56 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 263ms (Views: 139.4ms)
+
+
+Started GET "/oauth/authorize?client_id=8bcb8e8b79959940283d32d86b4353b3ddf0a6d7d456d5072bbcb47601a248da&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code" for 127.0.0.1 at 2018-01-22 16:42:58 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/oauth/authorize"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-01-22 16:43:23 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 16.8ms)
+
+
+Started GET "/oauth/authorize" for 127.0.0.1 at 2018-01-22 16:45:55 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/oauth/authorize"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/oauth" for 127.0.0.1 at 2018-01-22 16:46:49 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/oauth"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for ::1 at 2018-01-22 17:05:55 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 287ms (Views: 145.6ms)
+
+
+Started GET "/oauth/callback" for ::1 at 2018-01-22 17:11:54 +0200
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for SessionsController):
+  
+actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/oauth/authorize?client_id=c242b07110734a00dd641dc38dae46ce0de599793ba072b23a1ebcf9903809fc&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&response_type=code&scope=" for ::1 at 2018-01-22 17:13:08 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/oauth/authorize"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/oauth/token" for ::1 at 2018-01-22 17:19:30 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/oauth/token"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/oauth/callback" for ::1 at 2018-01-22 17:23:01 +0200
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for SessionsController):
+  
+actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/oauth/callback" for ::1 at 2018-01-22 17:24:17 +0200
+Processing by SessionsController#create as HTML
+Completed 500 Internal Server Error in 131ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/sessions_controller.rb:4:in `create'
+Started GET "/oauth/callback" for ::1 at 2018-01-22 17:25:43 +0200
+Processing by SessionsController#create as HTML
+Completed 500 Internal Server Error in 135ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/sessions_controller.rb:4:in `create'
+Started GET "/oauth/callback" for ::1 at 2018-01-22 17:25:46 +0200
+Processing by SessionsController#create as HTML
+Completed 500 Internal Server Error in 7ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/sessions_controller.rb:4:in `create'
+Started GET "/oauth/token" for ::1 at 2018-01-22 17:26:44 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/oauth/token"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/oauth/authorize" for ::1 at 2018-01-22 17:27:23 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/oauth/authorize"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/oauth/callback" for ::1 at 2018-01-22 17:28:06 +0200
+Processing by SessionsController#create as HTML
+Completed 500 Internal Server Error in 5ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/sessions_controller.rb:4:in `create'
+Started GET "/oauth/callback" for ::1 at 2018-01-22 17:30:48 +0200
+Processing by SessionsController#create as HTML
+Completed 500 Internal Server Error in 255ms
+
+
+  
+RestClient::InternalServerError (500 Internal Server Error):
+  
+app/controllers/sessions_controller.rb:4:in `create'
+Started GET "/oauth/callback" for ::1 at 2018-01-22 17:31:03 +0200
+Processing by SessionsController#create as HTML
+Completed 500 Internal Server Error in 94ms
+
+
+  
+RestClient::InternalServerError (500 Internal Server Error):
+  
+app/controllers/sessions_controller.rb:4:in `create'
+Started GET "/oauth/callback" for ::1 at 2018-01-22 17:33:16 +0200
+Processing by SessionsController#create as HTML
+Completed 500 Internal Server Error in 100ms
+
+
+  
+RestClient::InternalServerError (500 Internal Server Error):
+  
+app/controllers/sessions_controller.rb:4:in `create'
+Started GET "/oauth/callback" for ::1 at 2018-01-22 17:35:09 +0200
+Processing by SessionsController#create as HTML
+Completed 500 Internal Server Error in 121ms
+
+
+  
+RestClient::InternalServerError (500 Internal Server Error):
+  
+app/controllers/sessions_controller.rb:4:in `create'
+Started GET "/oauth/callback" for ::1 at 2018-01-22 17:35:12 +0200
+Processing by SessionsController#create as HTML
+Completed 500 Internal Server Error in 91ms
+
+
+  
+RestClient::InternalServerError (500 Internal Server Error):
+  
+app/controllers/sessions_controller.rb:4:in `create'
+Started GET "/oauth/callback" for ::1 at 2018-01-22 17:36:15 +0200
+Processing by SessionsController#create as HTML
+Completed 500 Internal Server Error in 511ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/sessions_controller.rb:4:in `create'
+Started POST "/oauth/token" for ::1 at 2018-01-22 17:46:39 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/oauth/token"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/oauth/callback" for ::1 at 2018-01-22 17:52:13 +0200
+Processing by SessionsController#create as HTML
+Completed 500 Internal Server Error in 121ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/sessions_controller.rb:5:in `create'
+Started GET "/oauth/callback?code=742bc05f04312edc5209cbda43823f55d45f90dd6f40dbef6b717737464ac6ff" for ::1 at 2018-01-22 18:20:54 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"742bc05f04312edc5209cbda43823f55d45f90dd6f40dbef6b717737464ac6ff"}
+Completed 500 Internal Server Error in 88ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/sessions_controller.rb:5:in `create'
+Started GET "/oauth/callback?code=337fa851c5260707a55cf95f096bc90d38d0106cf478a0c81630684d0724f3e2" for ::1 at 2018-01-22 18:22:42 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"337fa851c5260707a55cf95f096bc90d38d0106cf478a0c81630684d0724f3e2"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 163ms
+
+
+Started GET "/" for ::1 at 2018-01-22 18:22:42 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 141ms (Views: 140.0ms)
+
+
+Started GET "/oauth/callback?code=883d9c9b01ce7fada87c01229559f2dc30decb7dfc7cfc0b78df4311120bb293" for ::1 at 2018-01-22 18:23:46 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"883d9c9b01ce7fada87c01229559f2dc30decb7dfc7cfc0b78df4311120bb293"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 13ms
+
+
+Started GET "/" for ::1 at 2018-01-22 18:23:46 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 14.0ms)
+
+
+Started GET "/oauth/callback?code=4bddf58322977749caec6825b687620bc47ffca22758b17e3cb658587ff79e04" for ::1 at 2018-01-22 18:25:44 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"4bddf58322977749caec6825b687620bc47ffca22758b17e3cb658587ff79e04"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 117ms
+
+
+Started GET "/" for ::1 at 2018-01-22 18:25:44 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 153ms (Views: 152.2ms)
+
+
+Started GET "/oauth/callback" for ::1 at 2018-01-22 18:26:07 +0200
+Processing by SessionsController#create as HTML
+Completed 500 Internal Server Error in 7ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/sessions_controller.rb:5:in `create'
+Started GET "/" for ::1 at 2018-01-22 18:26:16 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 15.0ms)
+
+
+Started GET "/" for ::1 at 2018-01-22 18:31:23 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 267ms (Views: 143.6ms)
+
+
+Started GET "/oauth/callback?code=d19c786f85304ab38404ffe335d15f03ccda723e0d6601b0591edecc90be1770" for ::1 at 2018-01-22 18:32:22 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"d19c786f85304ab38404ffe335d15f03ccda723e0d6601b0591edecc90be1770"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 28ms
+
+
+Started GET "/" for ::1 at 2018-01-22 18:32:22 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 30ms (Views: 29.3ms)
+
+
+Started GET "/oauth/callback?code=14b292dfd0d297397a9f382833608789b299f83d2b1e57436061245ebffcdf16" for ::1 at 2018-01-22 18:35:35 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"14b292dfd0d297397a9f382833608789b299f83d2b1e57436061245ebffcdf16"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 158ms
+
+
+Started GET "/" for ::1 at 2018-01-22 18:35:36 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 144ms (Views: 143.1ms)
+
+
+Started GET "/oauth/callback" for ::1 at 2018-01-22 18:57:15 +0200
+Processing by SessionsController#create as HTML
+Completed 500 Internal Server Error in 128ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/sessions_controller.rb:5:in `create'
+Started GET "/" for ::1 at 2018-01-22 18:57:48 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 185ms (Views: 183.7ms)
+
+
+Started GET "/" for ::1 at 2018-01-22 19:00:41 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 258ms (Views: 179.7ms)
+
+
+Started GET "/" for ::1 at 2018-01-22 19:02:53 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 258ms (Views: 181.0ms)
+
+
+Started GET "/oauth/callback?code=0476b9d2bafc8dc4ae8bfee4143c9908c40d6f0dbe0f9265d73ce2788cb29b91" for ::1 at 2018-01-22 19:04:37 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"0476b9d2bafc8dc4ae8bfee4143c9908c40d6f0dbe0f9265d73ce2788cb29b91"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 102ms
+
+
+Started GET "/" for ::1 at 2018-01-22 19:04:37 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 183ms (Views: 182.1ms)
+
+
+Started GET "/oauth/callback?code=191f0e540bbc44a12a403de234bcd0dc117c3a27756e97e59967a35d7b6d1911" for ::1 at 2018-01-22 19:04:53 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"191f0e540bbc44a12a403de234bcd0dc117c3a27756e97e59967a35d7b6d1911"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 13ms
+
+
+Started GET "/" for ::1 at 2018-01-22 19:04:53 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 17.8ms)
+
+
+Started GET "/" for ::1 at 2018-01-23 12:49:17 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 235ms (Views: 132.2ms)
+
+
+Started POST "/session/destroy" for ::1 at 2018-01-23 12:49:22 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"xmdnGqepE0ep0qMbD8Ba7kn0ja2mvjaVxiaZpNaxuPhiuNyOjKbl3obpsiSdnoLq5rw1eWihHC0+a3QoRIUsEA=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for ::1 at 2018-01-23 12:49:22 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 12.4ms)
+
+
+Started GET "/" for ::1 at 2018-01-23 12:49:53 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 20ms (Views: 17.7ms)
+
+
+Started GET "/" for ::1 at 2018-01-23 12:53:29 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 247ms (Views: 136.0ms)
+
+
+Started GET "/oauth/callback?code=4026b0a996c1d0a1d4136a4d22fa072b39fe8bf924c9c69f5c029ebf085167ef" for ::1 at 2018-01-23 12:53:34 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"4026b0a996c1d0a1d4136a4d22fa072b39fe8bf924c9c69f5c029ebf085167ef"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 35ms
+
+
+Started GET "/" for ::1 at 2018-01-23 12:53:34 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 32ms (Views: 31.7ms)
+
+
+Started POST "/session/destroy" for ::1 at 2018-01-23 12:53:37 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+Qw9Rtfvaw+MsLPJRf9d9Y572FhaGm24vUBAxlp5O4Bd04bS/OCdlqOLovbXoYXxITNgjJQFRwBFDa1KyE2vaA=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for ::1 at 2018-01-23 12:53:37 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 12.2ms)
+
+
+Started GET "/oauth/callback?code=3b324a500c08e30382787b21b72d7b72459d903eccbf3deaddf5bf0552711de8" for ::1 at 2018-01-23 12:53:38 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"3b324a500c08e30382787b21b72d7b72459d903eccbf3deaddf5bf0552711de8"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 16ms
+
+
+Started GET "/" for ::1 at 2018-01-23 12:53:38 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 15ms (Views: 14.6ms)
+
+
+Started GET "/" for ::1 at 2018-01-23 12:54:05 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 33ms (Views: 31.9ms)
+
+
+Started POST "/session/destroy" for ::1 at 2018-01-23 12:54:07 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"tYv7B1BQhiYUhKwLyGSPIo9FnIWaG3ZfE2fMp7ThsAwRVECTe19wvzu/vTRaOlcmIA0kUVQEXOfrKiErJtUk5A=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for ::1 at 2018-01-23 12:54:07 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 36ms (Views: 34.6ms)
+
+
+Started GET "/oauth/callback?code=02dc8f50a81394fc10e15b90222649924642562b5a3bea04605cbf93d300f281" for ::1 at 2018-01-23 12:54:47 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"02dc8f50a81394fc10e15b90222649924642562b5a3bea04605cbf93d300f281"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 144ms
+
+
+Started GET "/" for ::1 at 2018-01-23 12:54:48 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 143ms (Views: 142.2ms)
+
+
+Started POST "/session/destroy" for ::1 at 2018-01-23 12:55:38 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JUMQquozb6bf/P07nPuFzZHB0Krh0T+MaUgHdgZsyFeBnKs+wTyZP/DH7AQOpV3JPolofi/OFTSRBer6lFhcvw=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 111ms
+
+
+Started GET "/" for ::1 at 2018-01-23 12:55:39 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 139ms (Views: 138.8ms)
+
+
+Started GET "/oauth/callback?code=b1425d244c6ddc167676be9063bbdd1ef7283effa14b16c8afad548b703ac794" for ::1 at 2018-01-23 12:56:29 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"b1425d244c6ddc167676be9063bbdd1ef7283effa14b16c8afad548b703ac794"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 35ms
+
+
+Started GET "/" for ::1 at 2018-01-23 12:56:29 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 32.2ms)
+
+
+Started POST "/session/destroy" for ::1 at 2018-01-23 12:56:33 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Jw12zKJfu4NUhG3/6pTPAqQ/OlgVR55T3ce1msUY4kmD0s1YiVBNGnu/fMB4yhcGC3eCjNtYtOslilgWVyx2oQ=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for ::1 at 2018-01-23 12:56:33 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 16.9ms)
+
+
+Started GET "/oauth/callback?code=68606c335d04e112e901f38db2f6479a3a75f2ce2d1d9f8df1075c235c1eab51" for ::1 at 2018-01-23 12:56:35 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"68606c335d04e112e901f38db2f6479a3a75f2ce2d1d9f8df1075c235c1eab51"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 17ms
+
+
+Started GET "/" for ::1 at 2018-01-23 12:56:35 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 31ms (Views: 29.8ms)
+
+
+Started POST "/session/destroy" for ::1 at 2018-01-23 12:56:39 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"0rb7SYw1CZfbbmWLxyniPu6TA073UxZ/vQI1Y8YXDkd2aUDdpzr/DvRVdLRVdzo6Qdu7mjlMPMdFT9jvVCOarw=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for ::1 at 2018-01-23 12:56:39 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 29ms (Views: 28.1ms)
+
+
+Started GET "/oauth/callback?code=7d993c4a4c79394d53dd5371598ca8c8ebd3f14c2e8434d80b9115cdf4cd6152" for ::1 at 2018-01-23 12:56:41 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"7d993c4a4c79394d53dd5371598ca8c8ebd3f14c2e8434d80b9115cdf4cd6152"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 16ms
+
+
+Started GET "/" for ::1 at 2018-01-23 12:56:41 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 25.3ms)
+
+
+Started GET "/" for ::1 at 2018-01-23 14:26:16 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 268ms (Views: 136.8ms)
+
+
+Started POST "/session/destroy" for ::1 at 2018-01-23 14:26:19 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"mUJTmKGqqlDp73pOIoAJR03j7gVz0FFS+x7bjf75NFI9negMiqVcycbUa3Gw3tFD4qtW0b3Pe+oDUzYBbM2gug=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for ::1 at 2018-01-23 14:26:19 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 14.0ms)
+
+
+Started GET "/oauth/callback?code=86d3df2866d338740d0fa489866f4fb6a79655c73388edbbd068748ccf49b4a3" for ::1 at 2018-01-23 14:26:23 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"86d3df2866d338740d0fa489866f4fb6a79655c73388edbbd068748ccf49b4a3"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 31ms
+
+
+Started GET "/" for ::1 at 2018-01-23 14:26:23 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 20ms (Views: 19.4ms)
+
+
+Started POST "/session/destroy" for ::1 at 2018-01-23 14:26:42 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Z0VVPiJjWSd92MdODHRHrDa51O9aQahhmXQDftg9Q1TDmu6qCWyvvlLj1nGeKp+omfFsO5RegtlhOe7ySgnXvA=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for ::1 at 2018-01-23 14:26:42 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 15ms (Views: 13.9ms)
+
+
+Started GET "/oauth/callback?code=38025e582d1e1183a70a2588a56fb880804a05ae20d8234168a6dfe622c78dac" for ::1 at 2018-01-23 14:26:44 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"38025e582d1e1183a70a2588a56fb880804a05ae20d8234168a6dfe622c78dac"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 15ms
+
+
+Started GET "/" for ::1 at 2018-01-23 14:26:44 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 16ms (Views: 15.6ms)
+
+
+Started POST "/session/destroy" for ::1 at 2018-01-23 14:26:50 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7g5Jow+BnztYZeBlPMIp/b+G5NwsBLjuvBOOepjbiclK0fI3JI5ponde8VqunPH5EM5cCOIbklZEXmP2Cu8dIQ=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for ::1 at 2018-01-23 14:26:50 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 16ms (Views: 15.6ms)
+
+
+Started GET "/" for ::1 at 2018-01-23 14:27:21 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 16.7ms)
+
+
+Started GET "/oauth/callback?code=c4b30e178067647a2166eecf015d9d3db3592df8b02b0a34b4f2d7a15e448900" for ::1 at 2018-01-23 14:27:25 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"c4b30e178067647a2166eecf015d9d3db3592df8b02b0a34b4f2d7a15e448900"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 16ms
+
+
+Started GET "/" for ::1 at 2018-01-23 14:27:25 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 33ms (Views: 31.5ms)
+
+
+Started POST "/session/destroy" for ::1 at 2018-01-23 14:27:33 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"RQUhUgSAVtszRUBtg8V2bwdJz7nlXG6GpiB38DlMX4Hh2prGL4+gQhx+UVIRm65rqAF3bStDRD5ebZp8q3jLaQ=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for ::1 at 2018-01-23 14:27:33 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 24.7ms)
+
+
+Started GET "/oauth/callback?code=e628435257fcd95ec5e70f96dd2e2ed7dfda24c23bbe19217d045fd9ee81704c" for ::1 at 2018-01-23 14:27:34 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"e628435257fcd95ec5e70f96dd2e2ed7dfda24c23bbe19217d045fd9ee81704c"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 16ms
+
+
+Started GET "/" for ::1 at 2018-01-23 14:27:34 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 26.7ms)
+
+
+Started GET "/oauth/callback?code=86d3d25e6ac817ed02fd7e105e39e5bac61d395ea971cdf4c03f1bac5774705c" for ::1 at 2018-01-23 14:32:33 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"86d3d25e6ac817ed02fd7e105e39e5bac61d395ea971cdf4c03f1bac5774705c"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 40ms
+
+
+Started GET "/" for ::1 at 2018-01-23 14:32:33 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 38ms (Views: 36.7ms)
+
+
+Started GET "/" for ::1 at 2018-01-23 16:52:09 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 248ms (Views: 139.7ms)
+
+
+Started GET "/oauth/callback?code=afae7ab1e32772ed5e3f30cb54601806b9a336c1cda118cab65e002d42ade3cb" for ::1 at 2018-01-23 16:52:53 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"afae7ab1e32772ed5e3f30cb54601806b9a336c1cda118cab65e002d42ade3cb"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 144ms
+
+
+Started GET "/" for ::1 at 2018-01-23 16:52:53 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 164ms (Views: 163.3ms)
+
+
+Started POST "/session/destroy" for ::1 at 2018-01-23 16:53:31 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ezUFRsucS2zcnKc3Drq4qQADdKfgofKs8oTk/Tz0mdCKOiM+npq9QFrpOM1U6PY3QFEJORoxWT2boEwfV2Tzyw=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for ::1 at 2018-01-23 16:53:31 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 14.1ms)
+
+
+Started GET "/" for ::1 at 2018-01-24 15:11:38 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 291ms (Views: 157.1ms)
+
+
+Started GET "/oauth/callback?code=6c3cc5ffc5301a196f1046f0d953e3d610e5afb1e05875c2c6915eb399946563" for ::1 at 2018-01-24 15:11:48 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"6c3cc5ffc5301a196f1046f0d953e3d610e5afb1e05875c2c6915eb399946563"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 27ms
+
+
+Started GET "/" for ::1 at 2018-01-24 15:11:48 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 22ms (Views: 21.1ms)
+
+
+Started GET "/" for ::1 at 2018-01-24 15:12:12 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 16.5ms)
+
+
+Started POST "/session/destroy" for ::1 at 2018-01-24 15:12:16 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"C08UQyNHq3uZThiJRaZyBYlU3ro/N1OKcNJQGzC8LMrfHvByose5rC+5lcX6wM7qMKuCETtx3StggYfAGw8Ohg=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for ::1 at 2018-01-24 15:12:16 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 28ms (Views: 27.3ms)
+
+
+Started GET "/oauth/callback?code=1d8f1d31b25faadfa09da8fd90c960cea49810aef0ef5ce9be265dd1f496c1eb" for ::1 at 2018-01-24 15:12:19 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"1d8f1d31b25faadfa09da8fd90c960cea49810aef0ef5ce9be265dd1f496c1eb"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 16ms
+
+
+Started GET "/" for ::1 at 2018-01-24 15:12:19 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 27ms (Views: 26.3ms)
+
+
+Started POST "/session/destroy" for ::1 at 2018-01-24 15:12:25 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"4xleUxPM5WhL9PwvTsgb0B9TWlXZy9qN+Bz7yiunnNw3SLpikkz3v/0DcWPxrqc/pqwG/t2NVCzoTywRABS+kA=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for ::1 at 2018-01-24 15:12:25 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 27ms (Views: 25.9ms)
+
+
+Started GET "/oauth/callback?code=0610456ee0d30fa0549e19e660a4473600822bca2e9fcc772fe661efccb25bdb" for ::1 at 2018-01-24 15:12:27 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"0610456ee0d30fa0549e19e660a4473600822bca2e9fcc772fe661efccb25bdb"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 14ms
+
+
+Started GET "/" for ::1 at 2018-01-24 15:12:27 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 12.5ms)
+
+
+Started POST "/session/destroy" for ::1 at 2018-01-24 15:12:28 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TU+dy0cZNtuHv+RSjLwYEBoz9UEvro9GMVwbt9IxAVGZHnn6xpkkDDFIaR4z2qT/o8yp6ivoAechD8xs+YIjHQ=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for ::1 at 2018-01-24 15:12:28 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 16.2ms)
+
+
+Started GET "/oauth/callback?code=af051cbb9f13ef39921bbbe55d01452c7960ccac5a7a891557a7a89c2e7ec645" for ::1 at 2018-01-24 15:12:29 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"af051cbb9f13ef39921bbbe55d01452c7960ccac5a7a891557a7a89c2e7ec645"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 15ms
+
+
+Started GET "/" for ::1 at 2018-01-24 15:12:29 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 16.7ms)
+
+
+Started GET "/" for ::1 at 2018-01-24 15:13:06 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 261ms (Views: 136.2ms)
+
+
+Started POST "/session/destroy" for ::1 at 2018-01-24 15:13:09 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"22f5Tqh9LIxtON2RQ75B7dmdTIrqd5T6p4kj7czO1sAPNh1/Kf0+W9vPUN382P0CYGIQIe4xGlu32vQ25330jA=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for ::1 at 2018-01-24 15:13:09 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 14.4ms)
+
+
+Started GET "/" for ::1 at 2018-01-25 15:16:45 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 284ms (Views: 145.6ms)
+
+
+Started GET "/oauth/callback?code=05adb47a5b7bfdb3b218d271da6c24deaa325f718679a810c9e950c458336abb" for ::1 at 2018-01-25 15:16:50 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"05adb47a5b7bfdb3b218d271da6c24deaa325f718679a810c9e950c458336abb"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 26ms
+
+
+Started GET "/" for ::1 at 2018-01-25 15:16:50 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 13.3ms)
+
+
+Started GET "/" for ::1 at 2018-01-26 11:33:42 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 278ms (Views: 140.5ms)
+
+
+Started GET "/oauth/callback?code=95023513a0d39d904b1a588a29dc40819ef54eba7cc2fa2ac6f72303d6bdcee3" for ::1 at 2018-01-26 11:33:49 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"95023513a0d39d904b1a588a29dc40819ef54eba7cc2fa2ac6f72303d6bdcee3"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 27ms
+
+
+Started GET "/" for ::1 at 2018-01-26 11:33:49 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 32ms (Views: 30.6ms)
+
+
