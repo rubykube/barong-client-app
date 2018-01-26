@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Welcome!</h1>
+    <% if session[:access_token] %>
+       <%= link_to 'Get User', "http://localhost:3000/api/account?access_token=#{session[:access_token]}" %>
+       <%= link_to 'Sign out', session_destroy_path, method: 'POST' %>
+    <% else %>
+       <%= link_to 'Authorize via Barong', new_oauth_token_path %>
+    <% end %>
+  </body>>
+</html>
