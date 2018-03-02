@@ -3,7 +3,8 @@
   <body>
     <h1>Welcome!</h1>
     <% if session[:access_token] %>
-       <%= link_to 'Get User', "http://localhost:3000/api/account?access_token=#{session[:access_token]}" %>
+       <%= link_to 'Get User', "http://localhost:3000/api/account/show?access_token=#{session[:access_token]}" %>
+       <%= link_to 'Create new user', "http://localhost:3000/api/account/new?access_token=#{session[:access_token]}&email='vi23i@gml.ua'&password=3123", method: 'POST' %>
        <%= link_to 'Sign out', session_destroy_path, method: 'POST' %>
     <% else %>
        <%= link_to 'Authorize via Barong', new_oauth_token_path %>
